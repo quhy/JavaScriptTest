@@ -1,0 +1,19 @@
+*{margin: 0;padding: 0;}
+
+#main{
+	position: relative;
+}
+.box{
+	padding: 15px 0 0 15px;
+	float: left;/*将div在一行显示,但需要设定div的宽度*/
+}
+.pic{
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px; /*圆角*/
+	box-shadow: 0 0 5px #CCC;/*阴影*/
+}
+.pic img{
+	width: 165px;
+	height: auto;
+}
